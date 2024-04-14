@@ -1,0 +1,7 @@
+<process-engine name="default">
+    <plugins>
+        <plugin>
+            <class>org.camunda.connect.plugin.impl.ConnectProcessEnginePlugin</class>
+        </plugin>
+    </plugins>
+</process-engine>
