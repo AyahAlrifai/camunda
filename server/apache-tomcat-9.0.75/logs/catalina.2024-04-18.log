@@ -1,0 +1,612 @@
+18-Apr-2024 14:09:49.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+18-Apr-2024 14:09:49.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+18-Apr-2024 14:09:49.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+18-Apr-2024 14:09:49.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2024 14:09:49.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2024 14:09:49.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2024 14:09:49.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+18-Apr-2024 14:09:49.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8+9-LTS-211
+18-Apr-2024 14:09:49.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Apr-2024 14:09:49.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:09:49.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:09:49.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2024 14:09:49.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2024 14:09:49.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2024 14:09:49.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2024 14:09:49.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2024 14:09:49.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\conf\logging.properties
+18-Apr-2024 14:09:49.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2024 14:09:49.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Apr-2024 14:09:49.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Apr-2024 14:09:49.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+18-Apr-2024 14:09:49.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Apr-2024 14:09:49.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:09:49.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:09:49.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\temp
+18-Apr-2024 14:09:49.128 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.4\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Tailscale\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\LENOVO\scoop\shims;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\LENOVO\AppData\Roaming\npm;.]
+18-Apr-2024 14:09:50.000 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-4040"]
+18-Apr-2024 14:09:50.032 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1375] milliseconds
+18-Apr-2024 14:09:50.741 WARNING [main] java.util.ArrayList.forEach Name = sqlserver Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+18-Apr-2024 14:09:50.823 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found Camunda Platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\conf\bpm-platform.xml] at 'file:/C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/conf/bpm-platform.xml'
+18-Apr-2024 14:09:51.195 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+18-Apr-2024 14:09:51.209 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+18-Apr-2024 14:09:51.216 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+18-Apr-2024 14:09:51.586 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+18-Apr-2024 14:09:51.746 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+18-Apr-2024 14:09:51.747 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+18-Apr-2024 14:09:51.748 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+18-Apr-2024 14:09:52.135 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+18-Apr-2024 14:09:52.143 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+18-Apr-2024 14:09:52.464 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo FEEL/SCALA-01001 Spin value mapper detected
+18-Apr-2024 14:09:52.722 INFO [main] org.camunda.feel.FeelEngine.<init> Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@79a7bfbc, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@77f68df)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@1a0d96a5, clock: SystemClock, configuration: Configuration(false)]
+18-Apr-2024 14:10:22.879 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: Failed to start component [StandardServer[8005]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.camunda.bpm.engine.ProcessEngineException: ENGINE-08043 Exception while performing 'deploy BPM platform' => 'Start process engine default': ENGINE-12012 Exception on accessing the database connection: Cannot create PoolableConnectionFactory (The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: no further information. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".)
+		at org.camunda.bpm.container.impl.ContainerIntegrationLogger.exceptionWhilePerformingOperationStep(ContainerIntegrationLogger.java:316)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:136)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.deployBpmPlatform(TomcatBpmPlatformBootstrap.java:83)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:61)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:907)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 7 more
+	Caused by: org.camunda.bpm.engine.ProcessEngineException: ENGINE-12012 Exception on accessing the database connection: Cannot create PoolableConnectionFactory (The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: no further information. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".)
+		at org.camunda.bpm.engine.impl.cfg.ConfigurationLogger.databaseConnectionAccessException(ConfigurationLogger.java:94)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDatabaseType(ProcessEngineConfigurationImpl.java:1758)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDataSource(ProcessEngineConfigurationImpl.java:1697)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.init(ProcessEngineConfigurationImpl.java:1155)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:1126)
+		at org.camunda.bpm.container.impl.jmx.services.JmxManagedProcessEngineController.start(JmxManagedProcessEngineController.java:38)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:77)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.startService(MBeanServiceContainer.java:63)
+		at org.camunda.bpm.container.impl.deployment.StartProcessEngineStep.performOperationStep(StartProcessEngineStep.java:119)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		... 16 more
+	Caused by: java.sql.SQLException: Cannot create PoolableConnectionFactory (The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: no further information. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:632)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:534)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:710)
+		at org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl.initDatabaseType(ProcessEngineConfigurationImpl.java:1741)
+		... 24 more
+	Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: no further information. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+		at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:233)
+		at com.microsoft.sqlserver.jdbc.SQLServerException.convertConnectExceptionToSQLServerException(SQLServerException.java:284)
+		at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2589)
+		at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:721)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3763)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3348)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3179)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1953)
+		at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1263)
+		at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:52)
+		at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:414)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:112)
+		at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:628)
+		... 27 more
+18-Apr-2024 14:10:22.885 SEVERE [main] org.camunda.commons.logging.BaseLogger.logError ENGINE-08044 Exception while performing 'Stop managed thread pool': Cannot stop service org.camunda.bpm.platform:type=executor-service: no such service registered: service is null
+	org.camunda.bpm.engine.exception.NullValueException: Cannot stop service org.camunda.bpm.platform:type=executor-service: no such service registered: service is null
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.generateException(EnsureUtil.java:398)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:55)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:50)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:121)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:109)
+		at org.camunda.bpm.container.impl.deployment.jobexecutor.StopManagedThreadPoolStep.performOperationStep(StopManagedThreadPoolStep.java:37)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.undeployBpmPlatform(TomcatBpmPlatformBootstrap.java:101)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:66)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:951)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:776)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+18-Apr-2024 14:10:22.886 SEVERE [main] org.camunda.commons.logging.BaseLogger.logError ENGINE-08044 Exception while performing 'Unregistering BPM Platform Plugins': Cannot stop service org.camunda.bpm.platform:type=bpm-platform-plugins: no such service registered: service is null
+	org.camunda.bpm.engine.exception.NullValueException: Cannot stop service org.camunda.bpm.platform:type=bpm-platform-plugins: no such service registered: service is null
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.generateException(EnsureUtil.java:398)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:55)
+		at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:50)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:121)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.stopService(MBeanServiceContainer.java:109)
+		at org.camunda.bpm.container.impl.deployment.UnregisterBpmPlatformPluginsStep.performOperationStep(UnregisterBpmPlatformPluginsStep.java:37)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation.execute(DeploymentOperation.java:120)
+		at org.camunda.bpm.container.impl.jmx.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:160)
+		at org.camunda.bpm.container.impl.spi.DeploymentOperation$DeploymentOperationBuilder.execute(DeploymentOperation.java:216)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.undeployBpmPlatform(TomcatBpmPlatformBootstrap.java:101)
+		at org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap.lifecycleEvent(TomcatBpmPlatformBootstrap.java:66)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:951)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:776)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+18-Apr-2024 14:10:22.887 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08049 Camunda Platform stopped at 'Apache Tomcat/9.0.75'
+18-Apr-2024 14:10:22.889 SEVERE [main] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [StandardServer[8005]] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [StandardService[Catalina]] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:430)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:244)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:966)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:776)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+18-Apr-2024 14:10:22.889 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-4040"]
+18-Apr-2024 14:11:09.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+18-Apr-2024 14:11:09.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+18-Apr-2024 14:11:09.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+18-Apr-2024 14:11:09.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2024 14:11:09.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2024 14:11:09.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2024 14:11:09.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+18-Apr-2024 14:11:09.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8+9-LTS-211
+18-Apr-2024 14:11:09.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Apr-2024 14:11:09.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:11:09.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:11:09.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2024 14:11:09.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2024 14:11:09.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2024 14:11:09.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2024 14:11:09.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2024 14:11:09.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\conf\logging.properties
+18-Apr-2024 14:11:09.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2024 14:11:09.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Apr-2024 14:11:09.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Apr-2024 14:11:09.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+18-Apr-2024 14:11:09.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Apr-2024 14:11:09.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:11:09.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:11:09.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\temp
+18-Apr-2024 14:11:09.746 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.4\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Tailscale\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\LENOVO\scoop\shims;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\LENOVO\AppData\Roaming\npm;.]
+18-Apr-2024 14:11:10.220 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-4040"]
+18-Apr-2024 14:11:10.255 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [826] milliseconds
+18-Apr-2024 14:11:10.723 WARNING [main] java.util.ArrayList.forEach Name = sqlserver Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+18-Apr-2024 14:11:10.785 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found Camunda Platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\conf\bpm-platform.xml] at 'file:/C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/conf/bpm-platform.xml'
+18-Apr-2024 14:11:10.960 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+18-Apr-2024 14:11:10.965 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+18-Apr-2024 14:11:10.969 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+18-Apr-2024 14:11:11.176 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+18-Apr-2024 14:11:11.318 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+18-Apr-2024 14:11:11.318 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+18-Apr-2024 14:11:11.319 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+18-Apr-2024 14:11:11.655 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+18-Apr-2024 14:11:11.664 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+18-Apr-2024 14:11:11.839 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo FEEL/SCALA-01001 Spin value mapper detected
+18-Apr-2024 14:11:11.998 INFO [main] org.camunda.feel.FeelEngine.<init> Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@3e4e4c1, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@7e7f3cfd)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@7a3e5cd3, clock: SystemClock, configuration: Configuration(false)]
+18-Apr-2024 14:11:15.950 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00001 Process Engine default created.
+18-Apr-2024 14:11:15.953 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor].
+18-Apr-2024 14:11:15.955 INFO [Thread-3] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14018 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] starting to acquire jobs
+18-Apr-2024 14:11:15.955 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08048 Camunda Platform sucessfully started at 'Apache Tomcat/9.0.75'.
+18-Apr-2024 14:11:15.973 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2024 14:11:15.973 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.75]
+18-Apr-2024 14:11:15.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\camunda]
+18-Apr-2024 14:11:27.088 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2024 14:11:28.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\camunda] has finished in [12,670] ms
+18-Apr-2024 14:11:28.653 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\camunda-welcome]
+18-Apr-2024 14:11:36.487 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2024 14:11:36.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\camunda-welcome] has finished in [7,836] ms
+18-Apr-2024 14:11:36.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\docs]
+18-Apr-2024 14:11:44.236 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2024 14:11:44.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\docs] has finished in [7,753] ms
+18-Apr-2024 14:11:44.244 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\engine-rest]
+18-Apr-2024 14:11:53.576 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2024 14:11:54.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\engine-rest] has finished in [9,870] ms
+18-Apr-2024 14:11:54.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\examples]
+18-Apr-2024 14:12:01.997 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2024 14:12:02.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\examples] has finished in [8,000] ms
+18-Apr-2024 14:12:02.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\host-manager]
+18-Apr-2024 14:12:08.884 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2024 14:12:08.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\host-manager] has finished in [6,770] ms
+18-Apr-2024 14:12:08.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\manager]
+18-Apr-2024 14:12:15.368 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2024 14:12:15.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\manager] has finished in [6,488] ms
+18-Apr-2024 14:12:15.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\ROOT]
+18-Apr-2024 14:12:21.384 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2024 14:12:21.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\ROOT] has finished in [6,030] ms
+18-Apr-2024 14:12:21.404 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-4040"]
+18-Apr-2024 14:12:21.446 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [71188] milliseconds
+18-Apr-2024 14:30:48.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+18-Apr-2024 14:30:48.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+18-Apr-2024 14:30:48.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+18-Apr-2024 14:30:48.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Apr-2024 14:30:48.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Apr-2024 14:30:48.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2024 14:30:48.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+18-Apr-2024 14:30:48.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8+9-LTS-211
+18-Apr-2024 14:30:48.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Apr-2024 14:30:48.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:30:48.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:30:48.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Apr-2024 14:30:48.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Apr-2024 14:30:48.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Apr-2024 14:30:48.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Apr-2024 14:30:48.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Apr-2024 14:30:48.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\conf\logging.properties
+18-Apr-2024 14:30:48.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2024 14:30:48.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Apr-2024 14:30:48.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Apr-2024 14:30:48.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+18-Apr-2024 14:30:48.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Apr-2024 14:30:48.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:30:48.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75
+18-Apr-2024 14:30:48.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\temp
+18-Apr-2024 14:30:48.643 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.4\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Tailscale\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\LENOVO\scoop\shims;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\LENOVO\AppData\Roaming\npm;.]
+18-Apr-2024 14:30:48.938 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-4040"]
+18-Apr-2024 14:30:48.952 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-4040]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1014)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1028)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1315)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:652)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1012)
+		... 13 more
+18-Apr-2024 14:30:48.953 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [491] milliseconds
+18-Apr-2024 14:30:49.076 SEVERE [main] org.apache.tomcat.jdbc.pool.ConnectionPool.init Unable to create initial connections of pool.
+	org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+		at org.h2.message.DbException.get(DbException.java:212)
+		at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+		at org.h2.mvstore.db.Store.<init>(Store.java:145)
+		at org.h2.engine.Database.<init>(Database.java:324)
+		at org.h2.engine.Engine.openSession(Engine.java:92)
+		at org.h2.engine.Engine.openSession(Engine.java:222)
+		at org.h2.engine.Engine.createSession(Engine.java:201)
+		at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+		at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+		at org.h2.Driver.connect(Driver.java:59)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:346)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:227)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:768)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:696)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:495)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:153)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:342)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:850)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:986)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:536)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:243)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:906)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db [2.1.214/7]
+		at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+		at org.h2.mvstore.FileStore.open(FileStore.java:178)
+		at org.h2.mvstore.FileStore.open(FileStore.java:128)
+		at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+		at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+		at org.h2.mvstore.db.Store.<init>(Store.java:136)
+		... 36 more
+18-Apr-2024 14:30:49.077 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+		at org.h2.message.DbException.get(DbException.java:212)
+		at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+		at org.h2.mvstore.db.Store.<init>(Store.java:145)
+		at org.h2.engine.Database.<init>(Database.java:324)
+		at org.h2.engine.Engine.openSession(Engine.java:92)
+		at org.h2.engine.Engine.openSession(Engine.java:222)
+		at org.h2.engine.Engine.createSession(Engine.java:201)
+		at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+		at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+		at org.h2.Driver.connect(Driver.java:59)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:346)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:227)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:768)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:696)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:495)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:153)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:342)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:850)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.core.NamingContextListener.addResource(NamingContextListener.java:986)
+		at org.apache.catalina.core.NamingContextListener.createNamingContext(NamingContextListener.java:536)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:243)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:906)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db [2.1.214/7]
+		at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+		at org.h2.mvstore.FileStore.open(FileStore.java:178)
+		at org.h2.mvstore.FileStore.open(FileStore.java:128)
+		at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+		at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+		at org.h2.mvstore.db.Store.<init>(Store.java:136)
+		... 36 more
+18-Apr-2024 14:30:49.079 WARNING [main] org.apache.catalina.core.NamingContextListener.addResource Failed to register in JMX: [javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]]]
+18-Apr-2024 14:30:49.084 WARNING [main] java.util.ArrayList.forEach Name = sqlserver Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+18-Apr-2024 14:30:49.120 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found Camunda Platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\conf\bpm-platform.xml] at 'file:/C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/conf/bpm-platform.xml'
+18-Apr-2024 14:30:49.238 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+18-Apr-2024 14:30:49.243 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+18-Apr-2024 14:30:49.245 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+18-Apr-2024 14:30:49.352 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+18-Apr-2024 14:30:49.424 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+18-Apr-2024 14:30:49.424 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+18-Apr-2024 14:30:49.424 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+18-Apr-2024 14:30:49.554 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+18-Apr-2024 14:30:49.557 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+18-Apr-2024 14:30:49.648 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo FEEL/SCALA-01001 Spin value mapper detected
+18-Apr-2024 14:30:49.714 INFO [main] org.camunda.feel.FeelEngine.<init> Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@336206d8, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@5ec4ff02)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@277bf091, clock: SystemClock, configuration: Configuration(false)]
+18-Apr-2024 14:30:51.533 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00001 Process Engine default created.
+18-Apr-2024 14:30:51.534 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor].
+18-Apr-2024 14:30:51.535 INFO [Thread-3] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14018 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] starting to acquire jobs
+18-Apr-2024 14:30:51.535 INFO [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08048 Camunda Platform sucessfully started at 'Apache Tomcat/9.0.75'.
+18-Apr-2024 14:30:51.554 SEVERE [main] org.apache.tomcat.jdbc.pool.ConnectionPool.init Unable to create initial connections of pool.
+	org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+		at org.h2.message.DbException.get(DbException.java:212)
+		at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+		at org.h2.mvstore.db.Store.<init>(Store.java:145)
+		at org.h2.engine.Database.<init>(Database.java:324)
+		at org.h2.engine.Engine.openSession(Engine.java:92)
+		at org.h2.engine.Engine.openSession(Engine.java:222)
+		at org.h2.engine.Engine.createSession(Engine.java:201)
+		at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+		at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+		at org.h2.Driver.connect(Driver.java:59)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:346)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:227)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:768)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:696)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:495)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:153)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:342)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:140)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:907)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db [2.1.214/7]
+		at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+		at org.h2.mvstore.FileStore.open(FileStore.java:178)
+		at org.h2.mvstore.FileStore.open(FileStore.java:128)
+		at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+		at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+		at org.h2.mvstore.db.Store.<init>(Store.java:136)
+		... 40 more
+18-Apr-2024 14:30:51.557 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+		at org.h2.message.DbException.get(DbException.java:212)
+		at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+		at org.h2.mvstore.db.Store.<init>(Store.java:145)
+		at org.h2.engine.Database.<init>(Database.java:324)
+		at org.h2.engine.Engine.openSession(Engine.java:92)
+		at org.h2.engine.Engine.openSession(Engine.java:222)
+		at org.h2.engine.Engine.createSession(Engine.java:201)
+		at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+		at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+		at org.h2.Driver.connect(Driver.java:59)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:346)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:227)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:768)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:696)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:495)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:153)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:342)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:140)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:907)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db [2.1.214/7]
+		at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+		at org.h2.mvstore.FileStore.open(FileStore.java:178)
+		at org.h2.mvstore.FileStore.open(FileStore.java:128)
+		at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+		at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+		at org.h2.mvstore.db.Store.<init>(Store.java:136)
+		... 40 more
+18-Apr-2024 14:30:51.558 SEVERE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing global JNDI Resources
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:892)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:140)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:907)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+		at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+		at org.h2.message.DbException.get(DbException.java:212)
+		at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+		at org.h2.mvstore.db.Store.<init>(Store.java:145)
+		at org.h2.engine.Database.<init>(Database.java:324)
+		at org.h2.engine.Engine.openSession(Engine.java:92)
+		at org.h2.engine.Engine.openSession(Engine.java:222)
+		at org.h2.engine.Engine.createSession(Engine.java:201)
+		at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+		at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+		at org.h2.Driver.connect(Driver.java:59)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:346)
+		at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:227)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:768)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:696)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:495)
+		at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:153)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+		at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.createDataSource(DataSourceFactory.java:560)
+		at org.apache.tomcat.jdbc.pool.DataSourceFactory.getObjectInstance(DataSourceFactory.java:244)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at java.naming/javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:342)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		... 20 more
+	Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/LENOVO/Desktop/camunda-bpm-tomcat-7.20.0-tomcat/server/apache-tomcat-9.0.75/bin/camunda-h2-dbs/process-engine.mv.db [2.1.214/7]
+		at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+		at org.h2.mvstore.FileStore.open(FileStore.java:178)
+		at org.h2.mvstore.FileStore.open(FileStore.java:128)
+		at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+		at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+		at org.h2.mvstore.db.Store.<init>(Store.java:136)
+		... 40 more
+18-Apr-2024 14:30:51.559 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Apr-2024 14:30:51.559 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.75]
+18-Apr-2024 14:30:51.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\camunda]
+18-Apr-2024 14:30:55.754 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Apr-2024 14:30:56.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\camunda] has finished in [4,753] ms
+18-Apr-2024 14:30:56.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\camunda-bpm-tomcat-7.20.0-tomcat\server\apache-tomcat-9.0.75\webapps\camunda-welcome]
+18-Apr-2024 14:51:14.992 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.025 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.027 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.engine.rest.impl.DefaultProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.028 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.028 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.028 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.028 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.029 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.030 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002200: Adding class resource org.camunda.bpm.engine.rest.impl.NamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.031 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.032 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+18-Apr-2024 14:51:15.032 INFO [http-nio-4040-exec-9] org.jboss.resteasy.spi.ResteasyDeployment.processApplication RESTEASY002205: Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication

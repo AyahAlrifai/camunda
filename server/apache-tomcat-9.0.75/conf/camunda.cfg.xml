@@ -5,3 +5,17 @@
         </plugin>
     </plugins>
 </process-engine>
+<properties>
+  <!-- Enable authorization -->
+  <property name="camunda.bpm.authorization.enabled">true</property>
+  
+  <!-- Enable REST API security filter -->
+  <property name="rest.csrf.disabled">true</property>
+  <property name="rest.security.filter.enabled">true</property>
+  
+  <!-- Enable web.xml authentication filter -->
+  <property name="web.xml.authentication-filter.enabled">true</property>
+  
+  <!-- Configure security domain -->
+  <property name="web.xml.security-domain">java:/jaas/camunda</property>
+</properties>
